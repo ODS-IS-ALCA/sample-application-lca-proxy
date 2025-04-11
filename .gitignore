@@ -1,0 +1,43 @@
+# local vscode setting
+/.vscode/*
+!/.vscode/settings.json
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/tests/unit
+/common_frontend_coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/public/version.txt
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+/storybook.log
+/storybook-static/*
